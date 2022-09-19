@@ -1,0 +1,218 @@
+:root{
+   --color1:darkred;
+   ---color2:#6666;
+   --color3:#4b000a;
+   --background:#131316;
+   --color4:rgb(48, 47, 47);
+
+}
+
+
+ul#pontos {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: var(--background);
+   
+
+   
+  }
+  li {
+    float: left;
+   border-right: 1px solid var(--background);
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    
+    
+  }
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: var(--color1);
+    font-family: 'Crimson Text', serif;
+  }
+  .active {
+    background-color: var(---color2);
+  }
+  li:last-child {
+    border-right: none;
+  }
+  #TopBanner{ 
+    background-color: var(--background);
+    align-self: center;
+    width: 99,8%;
+    height: 100px;
+    border-radius: 18px;
+    
+  } 
+  #Conteudo{
+   width: 70%;
+    height: 500px;
+    background-color: var(--color4);
+    padding-right: 100px;
+    margin: 10px 20px 10px 100px;
+    text-align: center;
+    box-shadow: 10px;
+    border-radius: 18px;
+    justify-content: space-around;
+     display:inline-block;
+  }
+  body{
+    background-image: linear-gradient(to right, darkred ,#000000 );
+  }#ostres{
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--background);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }#pontos2{
+    visibility: hidden;
+    background-color: var(--background);
+    margin: 0px 0px 0px 0px;
+  }#button-pont{
+    visibility: visible;
+    background-color: var(--color4);
+  }details{
+    float: right;
+  }#logo{
+    width: 11%;
+    float: left;
+  }#nome-marca{
+    text-align: left;
+    font-size: 80px;
+    font-family: 'Ms Madi', cursive;
+  }#conteudo2{
+   width: 20%;
+    height: 500px;
+    background-color: var(--color4);
+    padding-right: 100px;
+    margin: 1px 20px 10px 40px;
+    text-align: center;
+    box-shadow: 10px;
+    border-radius: 18px;
+    justify-content: space-around;
+     display:inline-block;
+     font-size: 18px;
+     font-family: 'Poppins', sans-serif;
+     color: white;
+  }*{
+    font-family: 'Crimson Text', serif;
+  }div{
+    box-shadow: inset 1px 4px 7px rgba(0, 0 , 0, 0.25);
+    
+  }#diabo{
+    align-items: center;
+   
+    align-self: center;
+    width: 99,8%;
+    height: 500px;
+    background-color: var(--background);
+    border-radius: 18px;
+  }#button-comprar{
+     width: 30%;
+    height: 50px;
+    background-color: darkred;
+    width: 90%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin-top: 10%;
+    font-size: 1.6em;
+    font-weight: 600;
+    cursor:pointer ;
+    transition: 0.3s ease-in-out;
+  }#img{
+     width: 30%;
+    height: 200px;
+    margin: -120px 0px 0px 100px;
+    border-radius: 18px;
+    display:flex;
+  }#estrelas{
+    margin: 10px 0px 0px 0px;
+     width: 90%;
+    height: 70px;
+  }#button-carri{
+    background-color: darkred;
+    width: 90%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin-top: 10%;
+    font-size: 16px;
+    font-weight: 600;
+    cursor:pointer ;
+    transition: 0.3s ease-in-out;
+  }button:hover{
+    background-color:#131316;
+    color :#fff;
+  }#checkbox{
+    display: flex;
+    margin: 100px 0px 0px -60px ;
+    width:20%;
+    height:40px;
+  }#valor-final{
+     margin: -100px 0px 0px 700px ;
+     font-size:40px;
+     display: flex;
+  }#texto-fianl{
+    margin: -80px 0px 0px 700px ;
+     display: flex;
+  }#diabinho-feliz{
+    margin: -90px 0px 0px -200px;
+    display: flex;
+  }#feliz{
+    margin: -150px 0px 0px 400px;
+    display: flex;
+    text-transform: uppercase;
+  }#fina{
+     background-color: darkred;
+    width: 9%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin: 40px 0px 0px 700px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor:pointer ;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    
+  }a{
+    text-decoration: none;
+    color: black;
+  }a:hover{
+    
+  }button:hover{
+    background-color: var(--color4);
+  }#a-fina{
+    text-decoration: none;
+    color: #fff;
+     width: 300%;
+    height: 50px;
+    border-radius: 18px;
+  }#fina:hover{
+    background-color: #fff;
+    color:var(--color3);
+  }#a-fina:hover{
+    color:var(--color3);
+  }
+  
+
+
